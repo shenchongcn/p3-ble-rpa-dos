@@ -1,0 +1,14 @@
+{
+  "suite": "m6_review_closure",
+  "run_count": 60,
+  "summary_rows": 240,
+  "seeds": [
+    20260610,
+    20260611,
+    20260612,
+    20260613,
+    20260614
+  ],
+  "combined_summary": "sim/rpa_resolution/results/m6_review_closure/combined_summary.csv",
+  "paper_table": "sim/rpa_resolution/figures/m6_review_closure/table_m6_review_closure_summary.csv"
+}

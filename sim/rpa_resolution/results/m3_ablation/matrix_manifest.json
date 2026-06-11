@@ -1,0 +1,16 @@
+{
+  "suite": "ablation",
+  "run_count": 15,
+  "summary_rows": 120,
+  "methods": [
+    "BudgetDoS",
+    "Freq-RL",
+    "P3-NoPersist",
+    "P3-NoBudget",
+    "P3-NoCache",
+    "P3-NoRL",
+    "P3-NoTrust",
+    "ZephyrCache"
+  ],
+  "config_dir": "sim/rpa_resolution/configs/m3/ablation"
+}

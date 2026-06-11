@@ -1,0 +1,4 @@
+run_id,method,aes_attempts_total,aes_attempts_per_legit_resolved,legit_resolution_rate,p50_resolution_delay_ms,p95_resolution_delay_ms,p99_resolution_delay_ms,attack_aes_amplification,false_defer_legit_rate,estimated_energy_uJ,sram_bytes
+paper_walkthrough,StaticRL,5570,107.115385,1.0,0.0,0.0,0.0,1556.726472,0.0,668.4,0
+paper_walkthrough,BudgetDoS,1118,28.666667,0.75,0,0.0,0.0,292.13633,0.25,134.16,208
+paper_walkthrough,P3-NoPersist,1091,27.275,0.769231,0.0,0.0,0.0,292.13633,0.230769,130.92,480

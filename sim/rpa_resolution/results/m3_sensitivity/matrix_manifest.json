@@ -1,0 +1,16 @@
+{
+  "suite": "sensitivity",
+  "run_count": 80,
+  "summary_rows": 640,
+  "methods": [
+    "BudgetDoS",
+    "Freq-RL",
+    "FullScan-Host",
+    "LRU-RL",
+    "P3-NoPersist",
+    "StaticRL",
+    "TrustOnly",
+    "ZephyrCache"
+  ],
+  "config_dir": "sim/rpa_resolution/configs/m3/sensitivity"
+}

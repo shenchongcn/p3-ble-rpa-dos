@@ -1,0 +1,29 @@
+{
+  "schema_version": "m2.v1",
+  "run_id": "m10_threshold_k3_s20260629",
+  "ncs_version": "v3.2.1",
+  "seed": 20260629,
+  "duration_s": 1800,
+  "warmup_s": 300,
+  "num_bonded": 512,
+  "rl_capacity": 8,
+  "active_ratio": 0.2,
+  "active_skew": 1.1,
+  "rpa_rotation_interval_min": 15,
+  "legit_adv_rate_per_device_per_min": 1.0,
+  "background_rpa_rate_per_min": 1000.0,
+  "attack_rpa_rate_per_min": 10000.0,
+  "non_rpa_ratio": 0.2,
+  "rssi_noise_db": 6.0,
+  "methods": [
+    "P3-Persist"
+  ],
+  "zephyr_cache_size": 64,
+  "budget_window_s": 60,
+  "budget_per_window": 100,
+  "persist_reserve": 200,
+  "persist_k": 3,
+  "write_traces": false,
+  "m10_experiment": "threshold_sensitivity",
+  "m10_scenario": "heavy_flood"
+}

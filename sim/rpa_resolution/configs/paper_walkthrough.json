@@ -1,0 +1,23 @@
+{
+  "schema_version": "m2.v1",
+  "run_id": "paper_walkthrough",
+  "ncs_version": "v3.2.1",
+  "seed": 20260603,
+  "duration_s": 180,
+  "warmup_s": 0,
+  "num_bonded": 16,
+  "rl_capacity": 4,
+  "active_ratio": 0.5,
+  "active_skew": 1.1,
+  "rpa_rotation_interval_min": 1,
+  "legit_adv_rate_per_device_per_min": 3.0,
+  "background_rpa_rate_per_min": 20.0,
+  "attack_rpa_rate_per_min": 120.0,
+  "non_rpa_ratio": 0.15,
+  "rssi_noise_db": 6.0,
+  "methods": ["StaticRL", "BudgetDoS", "P3-NoPersist"],
+  "zephyr_cache_size": 16,
+  "budget_window_s": 60,
+  "budget_per_window": 30,
+  "write_traces": true
+}

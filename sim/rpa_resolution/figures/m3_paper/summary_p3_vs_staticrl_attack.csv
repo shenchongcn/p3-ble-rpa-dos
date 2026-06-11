@@ -1,0 +1,5 @@
+attack_rpa_rate_per_min,baseline,target,attack_aes_amplification_StaticRL,attack_aes_amplification_P3-NoPersist,relative_reduction
+0.0,StaticRL,P3-NoPersist,0.0,0.0,0
+100.0,StaticRL,P3-NoPersist,28602.514286,12002.8,0.580359
+1000.0,StaticRL,P3-NoPersist,284074.685714,24597.142857,0.913413
+10000.0,StaticRL,P3-NoPersist,2818840.114286,27758.971429,0.990152

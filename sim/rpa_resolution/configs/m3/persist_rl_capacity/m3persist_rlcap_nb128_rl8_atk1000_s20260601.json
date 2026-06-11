@@ -1,0 +1,27 @@
+{
+  "schema_version": "m2.v1",
+  "run_id": "m3persist_rlcap_nb128_rl8_atk1000_s20260601",
+  "ncs_version": "v3.2.1",
+  "seed": 20260601,
+  "duration_s": 300,
+  "warmup_s": 60,
+  "num_bonded": 128,
+  "rl_capacity": 8,
+  "active_ratio": 0.2,
+  "active_skew": 1.1,
+  "rpa_rotation_interval_min": 15,
+  "legit_adv_rate_per_device_per_min": 1.0,
+  "background_rpa_rate_per_min": 100.0,
+  "attack_rpa_rate_per_min": 1000.0,
+  "non_rpa_ratio": 0.2,
+  "rssi_noise_db": 6.0,
+  "methods": [
+    "P3-Persist"
+  ],
+  "zephyr_cache_size": 64,
+  "budget_window_s": 60,
+  "budget_per_window": 100,
+  "write_traces": false,
+  "persist_reserve": 200,
+  "persist_k": 1
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "m2.v1",
+  "run_id": "m3p0_nb64_rl16_atk10000_s20260602",
+  "ncs_version": "v3.2.1",
+  "seed": 20260602,
+  "duration_s": 300,
+  "warmup_s": 60,
+  "num_bonded": 64,
+  "rl_capacity": 16,
+  "active_ratio": 0.2,
+  "active_skew": 1.1,
+  "rpa_rotation_interval_min": 15,
+  "legit_adv_rate_per_device_per_min": 1.0,
+  "background_rpa_rate_per_min": 100.0,
+  "attack_rpa_rate_per_min": 10000.0,
+  "non_rpa_ratio": 0.2,
+  "rssi_noise_db": 6.0,
+  "methods": [
+    "FullScan-Host",
+    "StaticRL",
+    "ZephyrCache",
+    "LRU-RL",
+    "Freq-RL",
+    "TrustOnly",
+    "BudgetDoS",
+    "P3-NoPersist"
+  ],
+  "zephyr_cache_size": 64,
+  "budget_window_s": 60,
+  "budget_per_window": 100,
+  "write_traces": false
+}

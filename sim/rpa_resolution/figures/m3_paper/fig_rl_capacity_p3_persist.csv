@@ -1,0 +1,7 @@
+num_bonded,rl_capacity,attack_rpa_rate_per_min,method,n,aes_attempts_total_mean,aes_attempts_total_sd,sram_bytes_mean,sram_bytes_sd
+128,16,1000.0,P3-Persist,5,45207.2,185.181533,3792.0,0.0
+128,32,1000.0,P3-Persist,5,38413.4,2.302173,3856.0,0.0
+128,8,1000.0,P3-Persist,5,48888.8,136.252339,3760.0,0.0
+512,16,1000.0,P3-Persist,5,213379.2,1802.057491,6864.0,0.0
+512,32,1000.0,P3-Persist,5,203329.6,1297.092248,6928.0,0.0
+512,8,1000.0,P3-Persist,5,217526.4,1617.518099,6832.0,0.0

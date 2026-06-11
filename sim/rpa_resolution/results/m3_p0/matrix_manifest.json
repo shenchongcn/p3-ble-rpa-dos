@@ -1,0 +1,16 @@
+{
+  "suite": "p0",
+  "run_count": 420,
+  "summary_rows": 3360,
+  "methods": [
+    "BudgetDoS",
+    "Freq-RL",
+    "FullScan-Host",
+    "LRU-RL",
+    "P3-NoPersist",
+    "StaticRL",
+    "TrustOnly",
+    "ZephyrCache"
+  ],
+  "config_dir": "sim/rpa_resolution/configs/m3/p0"
+}

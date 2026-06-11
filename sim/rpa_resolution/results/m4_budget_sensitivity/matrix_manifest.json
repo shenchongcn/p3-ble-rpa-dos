@@ -1,0 +1,27 @@
+{
+  "suite": "m4_budget_sensitivity",
+  "run_count": 36,
+  "summary_rows": 108,
+  "methods": [
+    "StaticRL",
+    "P3-NoPersist",
+    "P3-NoBudget"
+  ],
+  "seeds": [
+    20260610,
+    20260611,
+    20260612
+  ],
+  "budgets": [
+    100,
+    250,
+    500,
+    1000,
+    2500,
+    5000
+  ],
+  "duration_s": 1800,
+  "rl_capacity": 8,
+  "combined_summary": "sim/rpa_resolution/results/m4_budget_sensitivity/combined_summary.csv",
+  "paper_table": "sim/rpa_resolution/figures/m4_paper/table_budget_sensitivity.csv"
+}

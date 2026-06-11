@@ -1,0 +1,33 @@
+{
+  "suite": "m11_adaptive_adversary",
+  "run_count": 480,
+  "summary_rows": 960,
+  "seeds": [
+    20260610,
+    20260611,
+    20260612,
+    20260613,
+    20260614,
+    20260615,
+    20260616,
+    20260617,
+    20260618,
+    20260619,
+    20260620,
+    20260621,
+    20260622,
+    20260623,
+    20260624,
+    20260625,
+    20260626,
+    20260627,
+    20260628,
+    20260629
+  ],
+  "strategy_count": 12,
+  "combined_summary": "sim/rpa_resolution/results/m11_adaptive_adversary/combined_summary.csv",
+  "strategy_summary": "sim/rpa_resolution/figures/m11_adaptive_adversary/table_m11_strategy_summary.csv",
+  "best_response_table": "sim/rpa_resolution/figures/m11_adaptive_adversary/table_m11_best_response.csv",
+  "paired_duplicate_filter_table": "sim/rpa_resolution/figures/m11_adaptive_adversary/table_m11_paired_duplicate_filter.csv",
+  "reachable_region_figure": "sim/rpa_resolution/figures/m11_adaptive_adversary/fig_m11_adaptive_adversary.svg"
+}

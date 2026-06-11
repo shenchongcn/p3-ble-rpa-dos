@@ -1,0 +1,9 @@
+# The simulator (sim/rpa_resolution/src/rpa_sim.py) and all experiment runners
+# use only the Python standard library; no third-party package is required to
+# reproduce the numeric results (CSV summaries).
+#
+# The optional figure-redrawing helper (docs/figures_scripts/redraw_problem_figures.py)
+# and the CI plotting helper require matplotlib.
+#
+# Python >= 3.9 is recommended.
+matplotlib>=3.5

@@ -1,0 +1,21 @@
+{
+  "suite": "m4_replication",
+  "run_count": 9,
+  "summary_rows": 54,
+  "methods": [
+    "StaticRL",
+    "ZephyrCache",
+    "BudgetDoS",
+    "P3-NoPersist",
+    "P3-NoCache",
+    "P3-NoBudget"
+  ],
+  "seeds": [
+    20260610,
+    20260611,
+    20260612
+  ],
+  "duration_s": 1800,
+  "combined_summary": "sim/rpa_resolution/results/m4_replication/combined_summary.csv",
+  "paper_table": "sim/rpa_resolution/figures/m4_paper/table_long_window_replication.csv"
+}

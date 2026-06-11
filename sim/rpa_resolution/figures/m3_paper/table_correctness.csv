@@ -1,0 +1,17 @@
+suite,method,n,legit_resolution_rate_mean,legit_resolution_rate_sd,false_defer_legit_rate_mean,false_defer_legit_rate_sd,p95_resolution_delay_ms_mean,p95_resolution_delay_ms_sd
+ablation,BudgetDoS,15,0.790151,0.158619,0.209849,0.158619,0.0,0.0
+ablation,Freq-RL,15,1.0,0.0,0.0,0.0,0.0,0.0
+ablation,P3-NoPersist,15,0.798874,0.165043,0.204296,0.161087,0.0,0.0
+ablation,P3-NoBudget,15,1.0,0.0,0.008397,0.010795,0.0,0.0
+ablation,P3-NoCache,15,0.790151,0.158619,0.217299,0.15002,3.333333,12.909944
+ablation,P3-NoRL,15,0.845045,0.115276,0.158125,0.110961,0.0,0.0
+ablation,P3-NoTrust,15,0.798874,0.165043,0.201126,0.165043,0.0,0.0
+ablation,ZephyrCache,15,1.0,0.0,0.0,0.0,0.0,0.0
+p0,BudgetDoS,420,0.879958,0.1578,0.120042,0.1578,0.0,0.0
+p0,Freq-RL,420,1.0,0.0,0.0,0.0,0.0,0.0
+p0,FullScan-Host,420,1.0,0.0,0.0,0.0,0.0,0.0
+p0,LRU-RL,420,1.0,0.0,0.0,0.0,0.0,0.0
+p0,P3-NoPersist,420,0.907591,0.138606,0.094545,0.138485,0.0,0.0
+p0,StaticRL,420,1.0,0.0,0.0,0.0,0.0,0.0
+p0,TrustOnly,420,1.0,0.0,0.014986,0.019928,6.738095,24.902252
+p0,ZephyrCache,420,1.0,0.0,0.0,0.0,0.0,0.0

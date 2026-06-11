@@ -1,0 +1,13 @@
+scenario,metric,comparison,n,mean_diff,sd_diff,paired_t,paired_t_p,paired_cohens_dz,wilcoxon_p_approx
+medium_flood,legit_resolution_rate,P3-Persist_vs_AdaptiveRateLimit,20,0.333486,0.011364,131.233535,<1e-12,29.34471,9.56917e-05
+medium_flood,attack_aes_amplification,P3-Persist_vs_AdaptiveRateLimit,20,1168.272,154.848445,33.740547,<1e-12,7.544616,9.56917e-05
+medium_flood,legit_resolution_rate,P3-Persist_vs_BudgetDoS,20,0.379365,0.037187,45.622923,<1e-12,10.201596,9.56917e-05
+medium_flood,attack_aes_amplification,P3-Persist_vs_BudgetDoS,20,1329.552,185.51755,32.050538,<1e-12,7.166718,9.56917e-05
+medium_flood,legit_resolution_rate,P3-Persist_vs_P3-NoPersist,20,0.203384,0.013461,67.568215,<1e-12,15.108712,9.56917e-05
+medium_flood,attack_aes_amplification,P3-Persist_vs_P3-NoPersist,20,586.656,91.078869,28.805863,<1e-12,6.441187,9.56917e-05
+heavy_flood,legit_resolution_rate,P3-Persist_vs_AdaptiveRateLimit,20,0.364699,0.010967,148.722931,<1e-12,33.255458,9.56917e-05
+heavy_flood,attack_aes_amplification,P3-Persist_vs_AdaptiveRateLimit,20,106.848,44.888922,10.644915,1.90547e-09,2.380275,9.56917e-05
+heavy_flood,legit_resolution_rate,P3-Persist_vs_BudgetDoS,20,0.389347,0.067144,25.932667,2.22045e-16,5.798721,9.56917e-05
+heavy_flood,attack_aes_amplification,P3-Persist_vs_BudgetDoS,20,116.928,46.526886,11.239048,7.76949e-10,2.513128,9.56917e-05
+heavy_flood,legit_resolution_rate,P3-Persist_vs_P3-NoPersist,20,0.383862,0.036087,47.570468,<1e-12,10.63708,9.56917e-05
+heavy_flood,attack_aes_amplification,P3-Persist_vs_P3-NoPersist,20,114.912,43.43582,11.831297,3.28956e-10,2.645558,9.56917e-05

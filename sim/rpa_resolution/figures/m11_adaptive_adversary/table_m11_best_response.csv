@@ -1,0 +1,5 @@
+duplicate_filter_window_s,method,best_attack_strategy,attack_addr_pool_size,attack_repeats_per_addr,attack_repeat_interval_s,attack_aes_amplification_mean,attack_aes_amplification_sd,legit_resolution_rate_mean,false_defer_legit_rate_mean,reserve_grant_attack_count_mean,duplicate_filter_attack_count_mean,dup_removable_fraction_mean
+0,BudgetDoS,legacy_repeated,0,1,0.0,45648.288,350.532672,0.56632,0.43368,0.0,0.0,0.0
+0,P3-Persist,legacy_repeated,0,1,0.0,146163.024,374.442527,0.64109,0.359478,4984.45,0.0,0.0
+60,BudgetDoS,pool256_r1_p120,256,1,120.0,45644.256,351.860475,0.078791,0.921209,0.0,243526.95,0.974392
+60,P3-Persist,pool256_r1_p120,256,1,120.0,128962.512,49.587043,0.928646,0.076663,4127.2,243526.95,0.974403

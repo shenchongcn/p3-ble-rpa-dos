@@ -1,0 +1,14 @@
+{
+  "suite": "m8_algorithm_novelty",
+  "run_count": 60,
+  "summary_rows": 135,
+  "seeds": [
+    20260610,
+    20260611,
+    20260612,
+    20260613,
+    20260614
+  ],
+  "combined_summary": "sim/rpa_resolution/results/m8_algorithm_novelty/combined_summary.csv",
+  "paper_table": "sim/rpa_resolution/figures/m8_algorithm_novelty/table_m8_algorithm_novelty_summary.csv"
+}
