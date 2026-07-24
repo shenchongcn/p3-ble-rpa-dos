@@ -63,8 +63,8 @@ implementation detail not required for simulation reproduction.
 
 ## Citation
 
-Use the metadata in [`CITATION.cff`](CITATION.cff). The permanent Zenodo DOI is
-also shown in the GitHub release after archival.
+Use the metadata in [`CITATION.cff`](CITATION.cff). Version `1.0.0` is
+permanently archived at [https://doi.org/10.5281/zenodo.21521522](https://doi.org/10.5281/zenodo.21521522).
 
 ## License
 

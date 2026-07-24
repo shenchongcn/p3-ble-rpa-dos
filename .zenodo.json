@@ -29,6 +29,11 @@
   ],
   "related_identifiers": [
     {
+      "identifier": "https://github.com/shenchongcn/p3-ble-rpa-dos/releases/tag/v1.0.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
       "identifier": "https://github.com/shenchongcn/p3-ble-rpa-dos",
       "relation": "isSupplementTo",
       "scheme": "url"
