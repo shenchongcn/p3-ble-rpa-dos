@@ -1,0 +1,36 @@
+{
+  "suite": "m14_adaptive_refinement",
+  "phase": "confirm",
+  "config_count": 440,
+  "method_result_row_count": 640,
+  "source_commit": "8c430297",
+  "source_sha256": {
+    "sim/rpa_resolution/src/rpa_sim.py": "ae8c3f9086eb038111cebf2b5abc344f7d88f93988cd36edb8cfe2642f1bcb60",
+    "sim/rpa_resolution/scripts/run_m14_adaptive_refinement.py": "72f0cfdcaa55d7364475b725c36870ea2d9a1e8ffd50db9b188ce6ecb6bacd47",
+    "sim/rpa_resolution/scripts/review260715_suite_common.py": "50d42b60f0c6b801964b3a76a8d6096f397304fcfa8f3ad623cd509c15928050"
+  },
+  "full_trace_default": false,
+  "strategy_count": 11,
+  "seed_count": 20,
+  "duplicate_filter_windows_s": [
+    0,
+    60
+  ],
+  "top5": [
+    "pool320_r1_p105",
+    "pool320_r1_p120",
+    "pool320_r1_p135",
+    "pool320_r1_p75",
+    "pool320_r1_p90"
+  ],
+  "old_worst": "pool256_r1_p120",
+  "fixed_neighbors": [
+    "pool224_r1_p120",
+    "pool320_r1_p120",
+    "pool256_r1_p105",
+    "pool256_r1_p135",
+    "pool256_r2_p120"
+  ],
+  "unique_baseline": "unique",
+  "budget_dos_scope": "top5 only"
+}

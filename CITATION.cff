@@ -1,20 +1,31 @@
 cff-version: 1.2.0
-message: "If you use this reproduction package, please cite the associated manuscript."
-title: "P3: Persistence-Aware Admission Control for DoS-Resilient BLE Resolvable Private Address Resolution — Reproduction Package"
+message: "If you use this reproducibility package, please cite the software release and the associated article."
+title: "P3: Persistence-Aware Admission Control for DoS-Resilient BLE Resolvable Private Address Resolution - Reproducibility Package"
 type: software
 authors:
-  - name: "The P3 manuscript authors"
-    # Full author names, ORCIDs and affiliations will be completed on acceptance.
+  - family-names: "Chong"
+    given-names: "Shen"
+  - family-names: "Wang"
+    given-names: "Longcun"
+  - family-names: "Dao"
+    given-names: "Thi-Kien"
+  - family-names: "Nguyen"
+    given-names: "Trong-The"
+version: 1.0.0
+date-released: 2026-07-24
+repository-code: "https://github.com/shenchongcn/p3-ble-rpa-dos"
+url: "https://github.com/shenchongcn/p3-ble-rpa-dos/releases/tag/v1.0.0"
 abstract: >-
-  Deterministic event-driven simulator and experiment scripts reproducing the
-  numeric results of the P3 manuscript on persistence-aware resolving admission
-  control for BLE RPA-flooding denial-of-service resilience. Every result is
-  derived from seeded, deterministic simulation; no measured power or production
+  Deterministic event-driven simulator, experiment scripts, frozen results,
+  supplementary material, and anonymized trace evidence supporting the accepted
+  article on persistence-aware admission control for denial-of-service-resilient
+  Bluetooth Low Energy resolvable private address resolution. The headline
+  evidence is simulation-based; no measured power or deployed production
   firmware result is claimed.
 keywords:
-  - Bluetooth Low Energy
-  - resolvable private address
-  - denial-of-service resilience
-  - admission control
-  - reproducibility
+  - "Bluetooth Low Energy"
+  - "resolvable private address"
+  - "denial-of-service resilience"
+  - "admission control"
+  - "reproducibility"
 license: MIT

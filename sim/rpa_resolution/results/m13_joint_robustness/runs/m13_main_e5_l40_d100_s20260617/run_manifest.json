@@ -1,0 +1,26 @@
+{
+  "schema_version": "m13.v1",
+  "run_id": "m13_main_e5_l40_d100_s20260617",
+  "git_commit": "50e8a904",
+  "ncs_version": "v3.2.1",
+  "methods": [
+    "P3-Persist",
+    "P3-NoPersist",
+    "BudgetDoS"
+  ],
+  "seed": 20260617,
+  "config_hash": "b81701d09b3240da",
+  "num_bonded": 512,
+  "rl_capacity": 8,
+  "duration_s": 1800,
+  "warmup_s": 300,
+  "summary_warmup_applied": true,
+  "summary_measurement_s": 1500,
+  "event_count": 219808,
+  "background_address_mode": "unique",
+  "generated_event_count": 366683,
+  "observed_event_count": 219808,
+  "dropped_event_count": 146875,
+  "observation_loss_rate": 0.4,
+  "observation_loss_seed": 202606174005
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "m14.v1",
+  "run_id": "m14_screen_pool320_r2_p135_s20260614",
+  "git_commit": "6e66dbd2",
+  "ncs_version": "v3.2.1",
+  "methods": [
+    "P3-Persist"
+  ],
+  "seed": 20260614,
+  "config_hash": "b3c6bda28ad96e75",
+  "num_bonded": 512,
+  "rl_capacity": 8,
+  "duration_s": 1800,
+  "warmup_s": 300,
+  "summary_warmup_applied": true,
+  "summary_measurement_s": 1500,
+  "event_count": 399619
+}

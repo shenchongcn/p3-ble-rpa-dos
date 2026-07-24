@@ -1,0 +1,26 @@
+{
+  "schema_version": "m13.v1",
+  "run_id": "m13_control_no_attack_baseline_s20260620",
+  "git_commit": "6d3a9c72",
+  "ncs_version": "v3.2.1",
+  "methods": [
+    "P3-Persist",
+    "P3-NoPersist",
+    "BudgetDoS"
+  ],
+  "seed": 20260620,
+  "config_hash": "6b36dca624b95f90",
+  "num_bonded": 512,
+  "rl_capacity": 8,
+  "duration_s": 1800,
+  "warmup_s": 300,
+  "summary_warmup_applied": true,
+  "summary_measurement_s": 1500,
+  "event_count": 7213,
+  "background_address_mode": "unique",
+  "generated_event_count": 7213,
+  "observed_event_count": 7213,
+  "dropped_event_count": 0,
+  "observation_loss_rate": 0.0,
+  "observation_loss_seed": 202606200015
+}

@@ -1,0 +1,5 @@
+window_id,label,controlled_device_class,duration_s,event_count,candidate_count,high_rssi_candidate_count
+off_1,device_off,legacy_ios_smartphone,300,13995,9,5
+on_1,device_on,legacy_ios_smartphone,1200,44384,37,13
+off_2,device_off,legacy_ios_smartphone,300,9708,11,5
+on_2,device_on,legacy_ios_smartphone,1200,36408,26,13

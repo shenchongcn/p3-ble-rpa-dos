@@ -1,0 +1,19 @@
+{
+  "schema_version": "m14.v1",
+  "run_id": "m14_confirm_pool320_r1_p135_dup0_s20260614",
+  "git_commit": "8c430297",
+  "ncs_version": "v3.2.1",
+  "methods": [
+    "P3-Persist",
+    "BudgetDoS"
+  ],
+  "seed": 20260614,
+  "config_hash": "3759389c47b80e0b",
+  "num_bonded": 512,
+  "rl_capacity": 8,
+  "duration_s": 1800,
+  "warmup_s": 300,
+  "summary_warmup_applied": true,
+  "summary_measurement_s": 1500,
+  "event_count": 399619
+}

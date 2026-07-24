@@ -1,0 +1,4 @@
+check,strategy,value_aes_per_min,cap_aes_per_min,value_over_cap,cap_headroom,pass
+confirmed_worst_mean,pool320_r1_p75,146196.288,151200.0,0.966907,5003.712,True
+maximum_single_seed,pool320_r1_p105,147006.72,151200.0,0.972267,4193.28,True
+new_minus_historical_worst_mean,pool320_r1_p75_minus_pool256_r1_p120,17233.776,151200.0,,,True

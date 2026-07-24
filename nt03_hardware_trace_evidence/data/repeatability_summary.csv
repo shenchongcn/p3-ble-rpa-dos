@@ -1,0 +1,9 @@
+device_class,window_id,address_scope,event_count,observed_address_value_count,repeated_address_value_count,repeat_fraction,event_repeat_fraction,repeat_within_60s_address_count,repeat_within_120s_address_count,median_interarrival_s,p95_interarrival_s,measurement_note
+android_smartphone,on_1,random_or_rpa_candidate,34317,34,31,0.911765,0.999913,31,31,0.189,0.525,scanner duplicate filtering disabled during capture
+android_smartphone,on_1,rpa_bit_pattern,29319,26,23,0.884615,0.999898,23,23,0.189,0.280,scanner duplicate filtering disabled during capture
+android_smartphone,on_2,random_or_rpa_candidate,28781,29,27,0.931034,0.999931,27,27,0.252,0.526,scanner duplicate filtering disabled during capture
+android_smartphone,on_2,rpa_bit_pattern,27180,23,21,0.913043,0.999926,21,21,0.192,0.280,scanner duplicate filtering disabled during capture
+legacy_ios_smartphone,on_1,random_or_rpa_candidate,31333,37,35,0.945946,0.999936,35,35,0.187,0.452,scanner duplicate filtering disabled during capture
+legacy_ios_smartphone,on_1,rpa_bit_pattern,26210,27,25,0.925926,0.999924,25,25,0.187,0.280,scanner duplicate filtering disabled during capture
+legacy_ios_smartphone,on_2,random_or_rpa_candidate,22903,26,23,0.884615,0.999869,23,23,0.271,0.727,scanner duplicate filtering disabled during capture
+legacy_ios_smartphone,on_2,rpa_bit_pattern,20772,20,18,0.900000,0.999904,18,18,0.271,0.317,scanner duplicate filtering disabled during capture

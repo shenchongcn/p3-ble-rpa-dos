@@ -1,88 +1,71 @@
-# P3: Persistence-Aware Admission Control for DoS-Resilient BLE RPA Resolution — Reproducibility Package
+# P3: Persistence-Aware Admission Control for DoS-Resilient BLE RPA Resolution
 
-This repository is the reproducibility package for the manuscript *"P3:
-Persistence-Aware Admission Control for DoS-Resilient BLE Resolvable Private
-Address Resolution"* (under review). It contains the deterministic simulator,
-all experiment runners, the configuration files, the summary CSVs, and the
-figure-source CSVs needed to regenerate every quantitative result reported in
-the paper.
+This repository is the public reproducibility package for the accepted article
+*P3: Persistence-Aware Admission Control for DoS-Resilient BLE Resolvable
+Private Address Resolution*. It contains the deterministic simulator,
+experiment runners, frozen configurations, result summaries, figure-source
+data, supplementary tables, and anonymized hardware-trace evidence used in the
+article and its review-closure analyses.
 
-The package supports reproduction of the **simulation evidence only**. It does
-not claim a deployed P3 firmware implementation, measured current/power, or any
-on-hardware timing result. Energy is reported throughout as AES-equivalent
-resolving work (one unit = one IRK trial computation).
+Release `v1.0.0` is the archival version associated with the accepted article.
+The package was finalized on 15 July 2026; the article was accepted on 23 July
+2026.
 
-## Repository layout
+## Evidence boundary
 
+The headline P3 evidence is simulation-based and stack-informed. Modeled
+observation loss is an observation-layer proxy, not measured BLE packet loss.
+Modeled delay/defer values are not controller, host-stack, connection, or
+application timing measurements. The anonymized nRF5340 DK trace supports only
+a visible candidate-address repetition sanity check and is not used for the
+headline performance claims. Energy is reported as AES-equivalent resolving
+work (one unit equals one IRK trial computation).
+
+## Repository contents
+
+```text
+sim/rpa_resolution/          Simulator, configurations, runners, tests, results, and figures
+supplementary/               Supplementary Tables S1-S4 and complete adaptive screen
+review20260715/              Review-closure reports and decision records
+nt02_regenerated_figures/    Regenerated figure assets and source script
+nt03_hardware_trace_evidence/ Anonymized trace evidence and provenance material
+MANIFEST_FINAL.sha256        SHA-256 integrity manifest for the reviewed package
+README_FINAL.md              Detailed final-package guide and manuscript mapping
 ```
-sim/rpa_resolution/
-  src/rpa_sim.py            Deterministic event-driven RPA-resolution simulator
-  scripts/                  Experiment runners and analysis/plotting helpers
-  configs/                  Per-experiment JSON configurations (one file per seed/point)
-  results/*/combined_summary.csv   Aggregated per-method/seed/config summaries
-  figures/*/*.csv           Figure- and table-source CSVs used by the manuscript
-docs/figures_scripts/
-  redraw_problem_figures.py Figure regeneration script (matplotlib)
-```
 
-## Requirements
+## Quick validation
 
-- Python 3.10+
-- See `requirements.txt` (`matplotlib` is only needed for figure regeneration;
-  the simulator itself uses the standard library).
+Python 3.9 or newer is recommended. The numeric simulator uses only the Python
+standard library; `matplotlib` is optional and is needed for figure generation.
 
 ```bash
 python3 -m pip install -r requirements.txt
+python3 -m unittest discover \
+  -s sim/rpa_resolution/tests \
+  -p 'test_review260715_*.py'
 ```
 
-## Reproduce
+Detailed smoke-test and full-rerun commands are provided in
+[`README_FINAL.md`](README_FINAL.md). Frozen results should not be overwritten
+when auditing the release; direct test outputs to a separate writable path.
 
-Each run is deterministic given its seed, so every number in the manuscript can
-be regenerated exactly. Run from the repository root:
+## Integrity and privacy
 
-```bash
-# Main simulation campaign, sensitivity, and ablation
-python3 sim/rpa_resolution/scripts/run_m3_matrix.py --suite p0 \
-    --out sim/rpa_resolution/results/m3_p0 \
-    --config-dir sim/rpa_resolution/configs/m3/p0
-python3 sim/rpa_resolution/scripts/analyze_m3_results.py
+`MANIFEST_FINAL.sha256` covers the complete reviewed artifact package, excluding
+the manifest itself. Repository-level publication metadata (`README.md`,
+`CITATION.cff`, `.zenodo.json`, `LICENSE`, `.gitignore`, and
+`requirements.txt`) is intentionally maintained outside that package manifest.
 
-# Long-window replication and budget sensitivity
-python3 sim/rpa_resolution/scripts/run_m4_replication.py
-python3 sim/rpa_resolution/scripts/run_m4_budget_sensitivity.py
-
-# Review-closure baselines and capacity-expansion checks
-python3 sim/rpa_resolution/scripts/run_m6_review_closure_experiments.py
-
-# Persistence-novelty suite and 20-seed statistical extension
-python3 sim/rpa_resolution/scripts/run_m8_algorithm_novelty_experiments.py
-python3 sim/rpa_resolution/scripts/run_m10_statistical_extension.py
-python3 sim/rpa_resolution/scripts/analyze_m10_stats.py
-
-# Adaptive-adversary strategy-space sweep
-python3 sim/rpa_resolution/scripts/run_m11_adaptive_adversary.py
-
-# Figure regeneration
-python3 docs/figures_scripts/redraw_problem_figures.py
-```
-
-The pre-computed `combined_summary.csv` and figure-source CSVs are included so
-that the reported numbers can be inspected without re-running the full
-campaign.
-
-## Seeds
-
-| Suite | Seeds |
-| --- | --- |
-| Main P0 / sensitivity / ablation | 20260530–20260603 (5 seeds) |
-| Long-window replication | 20260610–20260612 (3 seeds) |
-| Review-closure / persistence-novelty | 20260610–20260614 (5 seeds) |
-| Statistical extension | 20260610–20260629 (20 seeds) |
+The public package excludes raw BLE addresses, anonymization salts, board and
+device identifiers, exact wall-clock times, location data, private account
+material, manuscript screenshots, editor lock files, and patent-sensitive
+implementation detail not required for simulation reproduction.
 
 ## Citation
 
-If you use this package, please cite the manuscript. See `CITATION.cff`.
+Use the metadata in [`CITATION.cff`](CITATION.cff). The permanent Zenodo DOI is
+also shown in the GitHub release after archival.
 
 ## License
 
-Released under the MIT License. See `LICENSE`.
+Released under the [MIT License](LICENSE).

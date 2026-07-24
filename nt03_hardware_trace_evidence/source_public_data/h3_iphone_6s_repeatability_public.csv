@@ -1,0 +1,3 @@
+device_class,window_id,candidate_addr_count,repeat_addr_count,repeat_fraction,event_repeat_fraction,median_interarrival_s,p95_interarrival_s,window_repeat_ge2_W60,window_repeat_ge2_W120,rssi_mean_dbm,rssi_std_db
+legacy_ios_smartphone,on_1,37,35,0.945946,0.999936,0.187,0.452,35,35,-68.80,13.40
+legacy_ios_smartphone,on_2,26,23,0.884615,0.999869,0.271,0.727,23,23,-66.55,13.93

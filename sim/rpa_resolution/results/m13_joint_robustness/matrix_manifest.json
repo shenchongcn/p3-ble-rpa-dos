@@ -1,0 +1,62 @@
+{
+  "suite": "m13_joint_robustness",
+  "status": "complete_20_seed_confirmation",
+  "source_commit": "see run_manifest.json per run",
+  "methods": [
+    "P3-Persist",
+    "P3-NoPersist",
+    "BudgetDoS"
+  ],
+  "seeds": [
+    20260610,
+    20260611,
+    20260612,
+    20260613,
+    20260614,
+    20260615,
+    20260616,
+    20260617,
+    20260618,
+    20260619,
+    20260620,
+    20260621,
+    20260622,
+    20260623,
+    20260624,
+    20260625,
+    20260626,
+    20260627,
+    20260628,
+    20260629
+  ],
+  "epoch_min": [
+    1,
+    5,
+    15
+  ],
+  "loss_rates": [
+    0.0,
+    0.2,
+    0.4
+  ],
+  "densities": [
+    100.0,
+    1000.0,
+    5000.0
+  ],
+  "main_cell_count": 27,
+  "config_count": 600,
+  "summary_row_count": 1800,
+  "metrics": [
+    "offered_legit_resolution_rate",
+    "observed_legit_resolution_rate",
+    "false_defer_observed_legit_rate",
+    "p95_resolution_delay_ms",
+    "attack_aes_amplification",
+    "actual_observation_loss_rate",
+    "reserve_grant_background_count"
+  ],
+  "screen_seed_count": 10,
+  "final_seed_count": 20,
+  "full_trace_default": false
+}

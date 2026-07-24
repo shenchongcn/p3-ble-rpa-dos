@@ -1,0 +1,16 @@
+contrast,metric,n,mean,sd,ci95_low,ci95_high
+attack_minus_no_attack_baseline,offered_legit_resolution_rate,20,-0.033071,0.003384,-0.034655,-0.031487
+attack_minus_no_attack_baseline,observed_legit_resolution_rate,20,-0.033071,0.003384,-0.034655,-0.031487
+attack_minus_no_attack_baseline,false_defer_observed_legit_rate,20,0.031988,0.003997,0.030117,0.033858
+attack_minus_no_attack_baseline,attack_aes_amplification,20,49783.104,112.036306,49730.669395,49835.538605
+attack_minus_no_attack_baseline,reserve_grant_background_count,20,0.0,0.0,0.0,0.0
+attack_minus_no_attack_worst_unique,offered_legit_resolution_rate,20,-0.003321,0.01268,-0.009255,0.002614
+attack_minus_no_attack_worst_unique,observed_legit_resolution_rate,20,-0.003129,0.011941,-0.008717,0.00246
+attack_minus_no_attack_worst_unique,false_defer_observed_legit_rate,20,0.003444,0.012011,-0.002177,0.009066
+attack_minus_no_attack_worst_unique,attack_aes_amplification,20,33477.696,470.408084,33257.53824,33697.85376
+attack_minus_no_attack_worst_unique,reserve_grant_background_count,20,0.0,0.0,0.0,0.0
+repeated_minus_unique_worst_under_attack,offered_legit_resolution_rate,20,-0.057604,0.023134,-0.068431,-0.046777
+repeated_minus_unique_worst_under_attack,observed_legit_resolution_rate,20,-0.096055,0.038557,-0.114101,-0.07801
+repeated_minus_unique_worst_under_attack,false_defer_observed_legit_rate,20,0.091536,0.037343,0.074059,0.109014
+repeated_minus_unique_worst_under_attack,attack_aes_amplification,20,-11.088,20.133456,-20.510748,-1.665252
+repeated_minus_unique_worst_under_attack,reserve_grant_background_count,20,4998.8,2.307881,4997.719878,4999.880122

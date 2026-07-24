@@ -1,0 +1,6 @@
+{
+  "cap_aes_per_min": 151200.0,
+  "max_p3_attack_aes_per_min": 147006.72,
+  "max_over_cap": 0.9722666666666667,
+  "pass": true
+}

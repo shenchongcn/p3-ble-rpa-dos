@@ -31,6 +31,8 @@ MAIN_METHODS = [
     "P3-NoPersist",
     "P3-NoPersist",
     "P3-Persist",
+    "P3-SPRT",
+    "P3-Adaptive",
     "Oracle-Offline",
 ]
 

@@ -1,0 +1,95 @@
+{
+  "suite": "m12_privacy_sidechannel",
+  "status": "complete",
+  "source_commit": "6009cf23",
+  "method_whitelist": [
+    "P3-Persist",
+    "P3-NoPersist",
+    "BudgetDoS"
+  ],
+  "seeds": [
+    20260610,
+    20260611,
+    20260612,
+    20260613,
+    20260614,
+    20260615,
+    20260616,
+    20260617,
+    20260618,
+    20260619,
+    20260620,
+    20260621,
+    20260622,
+    20260623,
+    20260624,
+    20260625,
+    20260626,
+    20260627,
+    20260628,
+    20260629
+  ],
+  "load_scenarios": {
+    "no_attack": [
+      100.0,
+      0.0
+    ],
+    "medium_flood": [
+      100.0,
+      1000.0
+    ],
+    "heavy_flood": [
+      1000.0,
+      10000.0
+    ]
+  },
+  "duplicate_filter_windows_s": [
+    0,
+    60
+  ],
+  "paired_job_count": 120,
+  "variant_run_count": 240,
+  "summary_row_count": 720,
+  "feature_fields": [
+    "defer_rate",
+    "mean_delay_ms",
+    "p95_delay_ms",
+    "cache_path_rate",
+    "reserve_path_rate",
+    "host_scan_path_rate",
+    "budget_skip_path_rate",
+    "duplicate_filter_path_rate",
+    "rl_path_rate",
+    "mean_aes_attempts"
+  ],
+  "feature_sets": {
+    "external_delay_defer_proxy": [
+      "defer_rate",
+      "mean_delay_ms",
+      "p95_delay_ms"
+    ],
+    "internal_path_diagnostic": [
+      "cache_path_rate",
+      "reserve_path_rate",
+      "host_scan_path_rate",
+      "budget_skip_path_rate",
+      "duplicate_filter_path_rate",
+      "rl_path_rate",
+      "mean_aes_attempts"
+    ]
+  },
+  "classifier": {
+    "model": "numpy logistic regression",
+    "cv": "5-fold grouped by paired_trace_id",
+    "bootstrap_unit": "paired_trace_id",
+    "permutation_unit": "paired_trace_id within-pair label shuffle"
+  },
+  "all_visible_trace_audits_passed": true,
+  "all_initial_probe_pre_resolution_audits_passed": true,
+  "source_files_sha256": {
+    "run_m12_privacy_sidechannel.py": "d4893ff87af025b7988adb80f4538dab58c6ad632494cc557beced714e1aed85",
+    "review260715_stats.py": "ea92691f4307719466e27d6e7f9b636749c0259ea07dc2e6c0775a1093370755",
+    "review260715_suite_common.py": "50d42b60f0c6b801964b3a76a8d6096f397304fcfa8f3ad623cd509c15928050",
+    "rpa_sim.py": "ae8c3f9086eb038111cebf2b5abc344f7d88f93988cd36edb8cfe2642f1bcb60"
+  }
+}

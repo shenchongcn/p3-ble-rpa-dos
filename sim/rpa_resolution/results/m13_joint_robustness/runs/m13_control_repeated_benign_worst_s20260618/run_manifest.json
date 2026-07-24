@@ -1,0 +1,26 @@
+{
+  "schema_version": "m13.v1",
+  "run_id": "m13_control_repeated_benign_worst_s20260618",
+  "git_commit": "5ebf9865",
+  "ncs_version": "v3.2.1",
+  "methods": [
+    "P3-Persist",
+    "P3-NoPersist",
+    "BudgetDoS"
+  ],
+  "seed": 20260618,
+  "config_hash": "cd62f63b32e3b58b",
+  "num_bonded": 512,
+  "rl_capacity": 8,
+  "duration_s": 1800,
+  "warmup_s": 300,
+  "summary_warmup_applied": true,
+  "summary_measurement_s": 1500,
+  "event_count": 326566,
+  "background_address_mode": "repeated",
+  "generated_event_count": 543370,
+  "observed_event_count": 326566,
+  "dropped_event_count": 216804,
+  "observation_loss_rate": 0.4,
+  "observation_loss_seed": 202606184001
+}

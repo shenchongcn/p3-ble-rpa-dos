@@ -1,0 +1,19 @@
+{
+  "suite": "m12_privacy_sidechannel",
+  "status": "planned",
+  "source_commit": null,
+  "simulator_commit": null,
+  "method_whitelist": [
+    "P3-Persist",
+    "P3-NoPersist",
+    "BudgetDoS"
+  ],
+  "seed_policy": null,
+  "planned_run_count": null,
+  "completed_run_count": 0,
+  "write_traces_default": false,
+  "audit_trace_runs": [],
+  "result_files": {},
+  "sha256": {},
+  "environment_record": "docs/20260606ver/20260713reply/exp00_baseline_and_provenance_20260715.md"
+}

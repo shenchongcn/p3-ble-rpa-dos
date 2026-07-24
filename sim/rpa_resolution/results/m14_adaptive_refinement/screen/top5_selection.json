@@ -1,0 +1,41 @@
+{
+  "suite": "m14_adaptive_refinement",
+  "phase": "screen_selection",
+  "source_commit": "6e66dbd2",
+  "ranking_rule": "attack_aes_amplification_mean descending; exact ties by attack_strategy lexicographic ascending",
+  "screen_strategy_count": 168,
+  "screen_seed_count": 5,
+  "top5": [
+    "pool320_r1_p75",
+    "pool320_r1_p90",
+    "pool320_r1_p105",
+    "pool320_r1_p120",
+    "pool320_r1_p135"
+  ],
+  "historical_worst": {
+    "strategy": "pool256_r1_p120",
+    "screen_rank": 82,
+    "attack_aes_amplification_mean": 128963.52
+  },
+  "confirmation_strategy_union": [
+    "unique",
+    "pool224_r1_p120",
+    "pool256_r1_p105",
+    "pool256_r1_p120",
+    "pool256_r1_p135",
+    "pool256_r2_p120",
+    "pool320_r1_p105",
+    "pool320_r1_p120",
+    "pool320_r1_p135",
+    "pool320_r1_p75",
+    "pool320_r1_p90"
+  ],
+  "confirmation_strategy_count": 11,
+  "confirmation_config_count": 440,
+  "confirmation_expected_method_rows": 640,
+  "screen_artifact_sha256": {
+    "combined_summary.csv": "01864343906b86adab050dd22889e4af1f3da11227ddaebc45189ab377dbec9e",
+    "table_m14_local_screen.csv": "c77aa7ba30380950fd55c24d89194ec5ef95335858209af87e183437f8a35205",
+    "matrix_manifest.json": "a820f47c83b50b779134f7b34f50da560101eb329bf0f2df57fc5f9d88b94d5c"
+  }
+}

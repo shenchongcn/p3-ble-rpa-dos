@@ -1,0 +1,37 @@
+{
+  "title": "P3: Persistence-Aware Admission Control for DoS-Resilient BLE Resolvable Private Address Resolution - Reproducibility Package",
+  "description": "Deterministic simulator, experiment scripts, frozen configurations and results, supplementary material, and anonymized trace evidence supporting the accepted article. The headline evidence is simulation-based and stack-informed; no measured power or deployed production firmware result is claimed.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Chong, Shen"
+    },
+    {
+      "name": "Wang, Longcun"
+    },
+    {
+      "name": "Dao, Thi-Kien"
+    },
+    {
+      "name": "Nguyen, Trong-The"
+    }
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-07-24",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Bluetooth Low Energy",
+    "resolvable private address",
+    "denial-of-service resilience",
+    "admission control",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/shenchongcn/p3-ble-rpa-dos",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

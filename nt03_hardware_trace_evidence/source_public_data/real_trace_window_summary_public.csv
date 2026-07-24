@@ -1,0 +1,5 @@
+window_id,label,controlled_device_class,duration_s,event_count,candidate_count,high_rssi_candidate_count
+off_1,device_off,smartphone,300,17535,11,7
+on_1,device_on,smartphone,1200,59120,34,15
+off_2,device_off,smartphone,300,16385,26,8
+on_2,device_on,smartphone,1200,49940,29,19

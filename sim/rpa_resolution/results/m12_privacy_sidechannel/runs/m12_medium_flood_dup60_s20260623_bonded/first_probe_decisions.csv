@@ -1,0 +1,7 @@
+run_id,method,paired_trace_id,identity_label_for_scoring,rpa_value,event_id,action,aes_attempts,deferred,delay_ms,drop_reason,admission_path
+m12_medium_flood_dup60_s20260623_bonded,P3-Persist,m12_medium_flood_dup60_s20260623,bonded,PRIVPROBE:0,26,host_scan,504,False,0,,host_scan
+m12_medium_flood_dup60_s20260623_bonded,P3-Persist,m12_medium_flood_dup60_s20260623,bonded,PRIVPROBE:1,21885,host_scan,504,False,0,,host_scan
+m12_medium_flood_dup60_s20260623_bonded,P3-NoPersist,m12_medium_flood_dup60_s20260623,bonded,PRIVPROBE:0,26,host_scan,504,False,0,,host_scan
+m12_medium_flood_dup60_s20260623_bonded,P3-NoPersist,m12_medium_flood_dup60_s20260623,bonded,PRIVPROBE:1,21885,host_scan,504,False,0,,host_scan
+m12_medium_flood_dup60_s20260623_bonded,BudgetDoS,m12_medium_flood_dup60_s20260623,bonded,PRIVPROBE:0,26,host_scan,504,False,0,,host_scan
+m12_medium_flood_dup60_s20260623_bonded,BudgetDoS,m12_medium_flood_dup60_s20260623,bonded,PRIVPROBE:1,21885,rl_hit,1,False,0,,rl

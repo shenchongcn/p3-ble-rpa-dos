@@ -1,0 +1,18 @@
+{
+  "p0_rows": 3360,
+  "sensitivity_rows": 640,
+  "ablation_rows": 120,
+  "headline_rl_capacity": 8,
+  "bonded_scale_rl_capacity": 8,
+  "outputs": [
+    "fig_ablation.csv",
+    "fig_attack_aes.csv",
+    "fig_bonded_scale.csv",
+    "fig_rl_capacity.csv",
+    "summary_p3_vs_staticrl_attack.csv",
+    "table_correctness.csv",
+    "table_overhead.csv",
+    "table_q_sched_actual.csv",
+    "table_sensitivity.csv"
+  ]
+}

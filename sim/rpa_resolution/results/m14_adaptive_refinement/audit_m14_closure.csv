@@ -1,0 +1,16 @@
+phase,check,pass,observed,expected
+screen,config_count,True,840,840
+screen,combined_rows,True,840,840
+screen,completion_validation,True,0,0
+screen,strategy_seed_counts,True,"strategies=168,n=[5]","168 strategies,n=5"
+screen,p3_only,True,['P3-Persist'],['P3-Persist']
+screen,duplicate_filter_60_only,True,['60'],['60']
+confirm,config_count,True,440,440
+confirm,combined_rows,True,640,640
+confirm,completion_validation,True,0,0
+confirm,p3_strategy_delta_seed_counts,True,"groups=22,n=[20]","22 groups,n=20"
+confirm,budget_top5_delta_seed_counts,True,"groups=10,n=[20]","10 groups,n=20"
+confirm,budget_scope,True,0,0
+cross_phase,top5_matches_frozen_selection,True,"pool320_r1_p105,pool320_r1_p120,pool320_r1_p135,pool320_r1_p75,pool320_r1_p90","pool320_r1_p105,pool320_r1_p120,pool320_r1_p135,pool320_r1_p75,pool320_r1_p90"
+cross_phase,confirmation_config_regeneration,True,440,440
+cross_phase,simulator_hash_invariant,True,ae8c3f9086eb038111cebf2b5abc344f7d88f93988cd36edb8cfe2642f1bcb60,ae8c3f9086eb038111cebf2b5abc344f7d88f93988cd36edb8cfe2642f1bcb60

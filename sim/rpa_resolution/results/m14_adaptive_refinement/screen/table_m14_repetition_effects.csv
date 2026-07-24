@@ -1,0 +1,7 @@
+analysis,contrast,n_cells,mean_aes_per_min,min_aes_per_min,max_aes_per_min
+marginal_by_r,r=1,56,115106.688,64076.544,145946.304
+marginal_by_r,r=2,56,113884.488,63915.264,142656.192
+marginal_by_r,r=4,56,112155.552,64092.672,138059.712
+matched_cell_difference,r1_minus_r2,56,1222.2,-314.496,3366.72
+matched_cell_difference,r2_minus_r4,56,1728.936,-241.92,4616.64
+matched_cell_difference,r1_minus_r4,56,2951.136,-362.88,7930.944

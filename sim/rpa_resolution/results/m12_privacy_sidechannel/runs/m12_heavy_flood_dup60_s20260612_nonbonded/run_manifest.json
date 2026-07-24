@@ -1,0 +1,16 @@
+{
+  "schema_version": "m12.v1",
+  "run_id": "m12_heavy_flood_dup60_s20260612_nonbonded",
+  "git_commit": "6009cf23",
+  "config_hash": "3cabecf7f9ae602a",
+  "methods": [
+    "P3-Persist",
+    "P3-NoPersist",
+    "BudgetDoS"
+  ],
+  "seed": 20260612,
+  "paired_trace_id": "m12_heavy_flood_dup60_s20260612",
+  "identity_label_for_scoring": "nonbonded",
+  "visible_trace_sha256": "c7c0129697c3a8cda8ad1f129cca0ee7c937f621cf2bb1009777d7a1f59de25e",
+  "probe_event_count_post_warmup": 300
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "m2.v1",
+  "run_id": "paper_walkthrough_persist",
+  "git_commit": "3d24b3e",
+  "ncs_version": "v3.2.1",
+  "methods": [
+    "P3-Persist"
+  ],
+  "seed": 20260603,
+  "config_hash": "d73b1666fb9e22b7",
+  "num_bonded": 24,
+  "rl_capacity": 4,
+  "duration_s": 180,
+  "warmup_s": 0,
+  "event_count": 562
+}

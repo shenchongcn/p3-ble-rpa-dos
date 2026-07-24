@@ -1,0 +1,18 @@
+{
+  "schema_version": "m2.v1",
+  "run_id": "paper_walkthrough",
+  "git_commit": "8b9dac8",
+  "ncs_version": "v3.2.1",
+  "methods": [
+    "StaticRL",
+    "BudgetDoS",
+    "P3-NoPersist"
+  ],
+  "seed": 20260603,
+  "config_hash": "442f84590918c213",
+  "num_bonded": 16,
+  "rl_capacity": 4,
+  "duration_s": 180,
+  "warmup_s": 0,
+  "event_count": 577
+}

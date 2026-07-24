@@ -1,0 +1,7 @@
+run_id,method,paired_trace_id,identity_label_for_scoring,rpa_value,event_id,action,aes_attempts,deferred,delay_ms,drop_reason,admission_path
+m12_no_attack_dup60_s20260627_nonbonded,P3-Persist,m12_no_attack_dup60_s20260627,nonbonded,PRIVPROBE:0,3,host_scan,504,False,0,,host_scan
+m12_no_attack_dup60_s20260627_nonbonded,P3-Persist,m12_no_attack_dup60_s20260627,nonbonded,PRIVPROBE:1,3811,host_scan,504,False,0,,host_scan
+m12_no_attack_dup60_s20260627_nonbonded,P3-NoPersist,m12_no_attack_dup60_s20260627,nonbonded,PRIVPROBE:0,3,host_scan,504,False,0,,host_scan
+m12_no_attack_dup60_s20260627_nonbonded,P3-NoPersist,m12_no_attack_dup60_s20260627,nonbonded,PRIVPROBE:1,3811,host_scan,504,False,0,,host_scan
+m12_no_attack_dup60_s20260627_nonbonded,BudgetDoS,m12_no_attack_dup60_s20260627,nonbonded,PRIVPROBE:0,3,host_scan,504,False,0,,host_scan
+m12_no_attack_dup60_s20260627_nonbonded,BudgetDoS,m12_no_attack_dup60_s20260627,nonbonded,PRIVPROBE:1,3811,host_scan,504,False,0,,host_scan

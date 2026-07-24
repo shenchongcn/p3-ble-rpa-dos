@@ -1,0 +1,51 @@
+{
+  "suite": "m13_joint_robustness_analysis",
+  "analysis_commit": "f75e03a6",
+  "run_source_commits": [
+    "50e8a904",
+    "5ebf9865",
+    "6d3a9c72"
+  ],
+  "audit_pass": true,
+  "config_count": 600,
+  "method_result_row_count": 1800,
+  "main_cell_count": 27,
+  "seed_count_per_cell": 20,
+  "practical_degradation_threshold": 0.05,
+  "practical_screen_crossing_cell_count": 24,
+  "worst_three_cells": [
+    {
+      "epoch_min": "1",
+      "loss_rate": "0.4",
+      "density": "100.0",
+      "offered_rate_mean": 0.400575
+    },
+    {
+      "epoch_min": "1",
+      "loss_rate": "0.4",
+      "density": "5000.0",
+      "offered_rate_mean": 0.402741
+    },
+    {
+      "epoch_min": "1",
+      "loss_rate": "0.4",
+      "density": "1000.0",
+      "offered_rate_mean": 0.405555
+    }
+  ],
+  "source_sha256": {
+    "sim/rpa_resolution/src/rpa_sim.py": "ae8c3f9086eb038111cebf2b5abc344f7d88f93988cd36edb8cfe2642f1bcb60",
+    "sim/rpa_resolution/scripts/run_m13_joint_robustness.py": "69329cebc66a19f11f205c76837f571aa7e2199504d6b67cde65fb33ff015945",
+    "sim/rpa_resolution/scripts/analyze_m13_joint_robustness.py": "f26d99d001aa1999032faa6ed885e98c54311a0e7cd12f9d2dbecd15edc2b3bd",
+    "sim/rpa_resolution/scripts/analyze_m10_stats.py": "7144bf1ac1c841af8aaee37857af2fdbb3ffbafdf55503af50a9aaf8d9a0cfe5",
+    "sim/rpa_resolution/scripts/review260715_suite_common.py": "50d42b60f0c6b801964b3a76a8d6096f397304fcfa8f3ad623cd509c15928050"
+  },
+  "output_sha256": {
+    "audit": "56dbb227af98891e81ecf557796e7755a024cad0aa296e6966c4d043bfaf2a46",
+    "cell_statistics": "63efea55569421415be626d1f29106883ad746c2a74dfda4f6ed2a21c9b8dc24",
+    "service_degradation": "fc14281fe19f26ed4a3dc461eaf8d8f853d414957b20d621325cfc0e56e59ac5",
+    "method_contrasts": "da02e20546e28175bea9bd0417bd6b71dc2f6a30220dd9acfaf2e8a0348706a5",
+    "control_contrasts": "db80c35b396774bbe7bd116141b1d5160f58fc2701d56e8d9122eee65fef9c28",
+    "heatmap_source": "7bc2bfb711162fa4b6729005777f301606a296b18171c6d66e45fcc48a59199e"
+  }
+}

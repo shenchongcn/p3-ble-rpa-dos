@@ -8,7 +8,6 @@ import json
 import os
 import subprocess
 import sys
-import tempfile
 import time
 from collections import defaultdict
 from pathlib import Path
@@ -24,7 +23,7 @@ from run_m8_algorithm_novelty_experiments import base_config  # noqa: E402
 
 
 SEEDS = list(range(20260610, 20260630))
-METHODS = ["BudgetDoS", "P3-Persist"]
+METHODS = ["BudgetDoS", "P3-Persist", "P3-SPRT", "P3-Adaptive"]
 ATTACK_COST = 512 - 8
 MAX_WORKERS = 4
 
@@ -283,7 +282,7 @@ def paired_delta_rows(summary_rows: list[dict[str, Any]]) -> list[dict[str, Any]
 
 def maybe_plot(paired_rows: list[dict[str, Any]], out_dir: Path) -> None:
     try:
-        os.environ.setdefault("MPLCONFIGDIR", str(Path(tempfile.gettempdir()) / "matplotlib-p3repro"))
+        os.environ.setdefault("MPLCONFIGDIR", "/private/tmp/matplotlib-btky")
         import matplotlib.pyplot as plt
     except BaseException:
         return

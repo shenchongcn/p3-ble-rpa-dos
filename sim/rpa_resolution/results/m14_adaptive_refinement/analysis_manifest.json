@@ -1,0 +1,35 @@
+{
+  "suite": "m14_adaptive_refinement_analysis",
+  "analysis_commit": "89a37b16",
+  "run_source_commits": [
+    "6e66dbd2",
+    "8c430297"
+  ],
+  "audit_pass": true,
+  "screen_config_count": 840,
+  "confirm_config_count": 440,
+  "confirm_method_row_count": 640,
+  "top5": [
+    "pool320_r1_p105",
+    "pool320_r1_p120",
+    "pool320_r1_p135",
+    "pool320_r1_p75",
+    "pool320_r1_p90"
+  ],
+  "cap_aes_per_min": 151200.0,
+  "source_sha256": {
+    "sim/rpa_resolution/src/rpa_sim.py": "ae8c3f9086eb038111cebf2b5abc344f7d88f93988cd36edb8cfe2642f1bcb60",
+    "sim/rpa_resolution/scripts/run_m14_adaptive_refinement.py": "72f0cfdcaa55d7364475b725c36870ea2d9a1e8ffd50db9b188ce6ecb6bacd47",
+    "sim/rpa_resolution/scripts/analyze_m14_adaptive_refinement.py": "002ec3fda60816bfae41077f9580e97982903b66c9e5e06d17c659d030cd3154",
+    "sim/rpa_resolution/scripts/analyze_m10_stats.py": "7144bf1ac1c841af8aaee37857af2fdbb3ffbafdf55503af50a9aaf8d9a0cfe5",
+    "sim/rpa_resolution/scripts/review260715_suite_common.py": "50d42b60f0c6b801964b3a76a8d6096f397304fcfa8f3ad623cd509c15928050"
+  },
+  "output_sha256": {
+    "audit": "e058bb40d6058e0622ae98bc8a893a9099b62bdaa251f5cb7c973d811fd900ea",
+    "ranking": "a2ebc1fef3bd9c41c01e6467eb7ab83f7a7dd27c33acd392a9bd575f820fa251",
+    "method_contrasts": "c409713a879561fbbfce044122cb4e24ef7ba9ebdc73951ee72af7d556e90a48",
+    "duplicate_filter_effects": "8552468c134e52737369cf6ebba60a41f31cacb2fbd52c879657d77bf083946f",
+    "repetition_effects": "5aaf291f697177a8cefd1397370b4375cc160adf5f86025c4732212ed27a2484",
+    "cap_audit": "8660a7bb58924dc27234d18a1cabbd27b315212fdd4a3f233356c140e59532cc"
+  }
+}
